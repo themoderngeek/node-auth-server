@@ -46,3 +46,5 @@ package.json
   }
 ```
 Added a start script to run the service without nodemon.
+
+If you only want to run mongodb in docker then you can remove the node service from docker-compose.yml and keep using localhost in the mongoose connection. That way the node service would be running on your local machine but mongo is in a container.
