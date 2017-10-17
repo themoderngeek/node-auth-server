@@ -34,7 +34,7 @@ index.js
 ```javascript
 mongoose.connect("mongodb://mongodb:27017:auth/auth");
 ```
-Note host has changed from localhost. It should match the service name provided in docker-compose as this docker handles
+Note host has changed from localhost. It should match the service name provided in docker-compose as docker handles
 making this a resolvable name.
 
 package.json
